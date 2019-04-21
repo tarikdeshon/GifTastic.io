@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>GifTastic</title>
+    
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="styles">
+            <h1>Hype Beast Gif</h1>
+            <br>
+
+            <!-- Buttons will go Here  -->
+            <div id="buttonsView"></div>
+
+            <form id="express-form">
+                <label for="express-input">Add your image</label>
+                <input type="text" id="express-input">
+
+                <!-- Button triggers new gifs to be added -->
+                <input id="addExpress" type="submit" value="Submit">
+            </form>
+
+
+            <!-- Gifs will Go here -->
+            <div id="expressView" data-state="still"></div>
+        </div>
+        <div id="expressDiv"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/gif.js"></script>
+
+</body>
+
+</html>
